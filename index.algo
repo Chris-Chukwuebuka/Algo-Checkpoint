@@ -1,0 +1,23 @@
+ALGORITHM 
+VAR
+    sentence: STRING;
+    sentence_length: INTEGER := 0;
+    vowels: INTEGER := 0;
+    word_length: INTEGER := 1;
+    vowels : STRING := "aeiou";
+BEGIN
+    FOR i FROM 0 TO N STEP 1  DO
+        IF sentence[i] = ' ' THEN
+            word_length := word_lengthh + 1;
+        END_IF
+
+        IF sentence[i] !== "" THEN
+            sentence_length := sentence_length + 1
+        END_IF
+
+        IF vowels.includes(sentence[i]) THEN
+            vowels := vowels + 1;
+        END_IF
+
+    END_FOR
+END
